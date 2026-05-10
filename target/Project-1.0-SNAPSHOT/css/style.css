@@ -1,0 +1,111 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 29 Sept 2025, 3:47:56 pm
+    Author     : arash
+*/
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+/*.row,.col-md-1,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-10,.col-md-11,.col-md-12{
+    padding: 40px 40px;
+}*/
+
+.header_bg {
+       background: linear-gradient(to bottom, #6600ff 0%, #ff99cc 100%);
+}
+
+.imagei {
+    border-radius: 50%;
+}
+.menubar-second{
+    background: linear-gradient(to left, #ffffff 0%, #66ffff 90%);
+}
+
+.hyperlinks_design
+{
+    color: white;
+    text-decoration:none;
+}
+.hyperlinks_design:hover{
+    color: red;
+    text-decoration: underline;
+}
+#mynavbar{
+    list-style: none;
+}
+#mynavbar li{
+    float: left;
+    padding: 10px;
+}
+#mynavbar li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    
+}
+
+#mynavbar li a:hover{
+    color: green;
+    text-decoration: underline;
+}
+.gray{
+    background-color: gray;
+}
+.black{
+    background-color: black;
+}
+.copyright{
+    color: red;
+    font-size: 40px;
+}
+#footermenubar ul li a{
+    color: white;
+}
+.textfielddesign{
+    padding: 5px 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.textfielddesign:focus{
+    background-color: buttonhighlight;
+}
+.job-search-div{
+    text-align: center;
+    box-shadow:0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+.display-job-div{
+    border: 5px solid gray;
+}
+
+/*    .col-md-6.custom-div {
+  border: 2px solid red !important;   border color aur thickness 
+  padding: 10px !important;           andar gap 
+  background-color: #f8f9fa !important;  halka grey background 
+}*/
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul li {
+    margin: 5px 0;
+}
+/*register page start*/
+.reglog_tf_design{
+    border: 1px solid gray;
+    border-radius: 3px;
+    width: 350px;
+    padding: 7px 10px;
+}
+.reglog_tf_design:hover{
+    box-shadow: 0 0 10px #9ecaed;
+}
+.profileLogo{
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50% ! important;
+}
